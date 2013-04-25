@@ -1,4 +1,4 @@
-#Lua
+###Lua
 
 Lua is the language of choice for anyone who needs a scripting language that is 
 simple, efficient, extensible, portable, and free. Currently, Lua is being used 
@@ -8,7 +8,7 @@ in the game industry, where knowledge of Lua is an indisputable asset.
 Lua also has established itself as a major language in software development for 
 mobile devices.
 
-##What is Lua?
+#What is Lua?
 
 Lua is a powerful, fast, lightweight, embeddable scripting language.
 
