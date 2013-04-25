@@ -5,8 +5,8 @@ simple, efficient, extensible, portable, and free. Currently, Lua is being used
 in areas ranging from embedded systems to Web development and is widely spread 
 in the game industry, where knowledge of Lua is an indisputable asset. 
 
-Lua also has established itself as a major language in software development for 
-mobile devices.
+Lua also has established itself as a major language in software development 
+for mobile devices.
 
 ##What is Lua?
 
@@ -27,4 +27,3 @@ collection, making it ideal for configuration, scripting, and rapid prototyping.
 * [LuaJIT](http://luajit.org/)
 * [License: MIT](http://www.lua.org/download.html)
 * [Download](http://www.lua.org/download.html)
-
