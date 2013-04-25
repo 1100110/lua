@@ -21,8 +21,9 @@ collection, making it ideal for configuration, scripting, and rapid prototyping.
 
 Links:  
 * [Lua.org](http://www.lua.org/)
+* [Wikipedia: Lua](http://en.wikipedia.org/wiki/Lua_%28programming_language%29)
 * [Authors](http://www.lua.org/authors.html)
-* [Faster Lua](http://luajit.org/)
+* [LuaJIT](http://luajit.org/)
 * [License: MIT](http://www.lua.org/download.html)
 * [Download](http://www.lua.org/download.html)
 
