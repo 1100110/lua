@@ -23,7 +23,9 @@ collection, making it ideal for configuration, scripting, and rapid prototyping.
 There are a few minor changes from the official C headers. These were only done for clarity or ease of use.
 Most notably:
 
-* ```D import deimos.lua; ``` is enough to pull in all of the headers.  You can still selectively import the other headers if you'd like.
+* ```D 
+  import deimos.lua; 
+  ``` is enough to pull in all of the headers.  You can still selectively import the other headers if you'd like.
 
 ##Links
 
