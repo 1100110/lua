@@ -30,8 +30,8 @@ Most notably:
 ##Links
 
 * [Lua.org](http://www.lua.org/)
-* Wikipedia: [Lua](http://en.wikipedia.org/wiki/Lua_%28programming_language%29)
+* [Wikipedia: Lua](http://en.wikipedia.org/wiki/Lua_%28programming_language%29)
 * [Authors](http://www.lua.org/authors.html)
-* [LuaJIT](http://luajit.org/) uses the same API, and should be as easy as using the LuaJIT library.
+* [LuaJIT](http://luajit.org/) uses the same API, and should be as easy as linking the LuaJIT library.
 * [License: MIT](http://www.lua.org/download.html)
 * [Download](http://www.lua.org/download.html)
