@@ -1,7 +1,7 @@
 {
 	"name":             "lua",
 	"description":      "A simple wrapper around the C lua headers",
-	"homepage":         "http://dlib.us",
+	"homepage":         "https://github.com/1100110/lua",
 	"copyright":        "Copyright © 2000, Jude Young",
 	"authors": [
 		                "Jude Young"
@@ -16,5 +16,5 @@
     "libs-posix": [
                         "dl"
     ],
-    "targetType":       "staticLibrary"
+    "targetType":       "sourceLibrary"
 }
