@@ -5,33 +5,31 @@
 ** See Copyright Notice at the end of this file
 */
 
-
-#ifndef lua_h
-#define lua_h
-
-#include <stdarg.h>
-#include <stddef.h>
+public import liblua;
+public import lauxlib;
+import std.c.stdarg;
+import std.c.stddef;
 
 
-#include "luaconf.h"
+//#include "luaconf.h"
 
 
-#define LUA_VERSION_MAJOR	"5"
-#define LUA_VERSION_MINOR	"2"
-#define LUA_VERSION_NUM		502
-#define LUA_VERSION_RELEASE	"2"
+immutable LUA_VERSION_MAJOR	    = "5";
+immutable LUA_VERSION_MINOR	    = "2";
+immutable LUA_VERSION_NUM		= 502;
+immutable LUA_VERSION_RELEASE	= "2";
 
-#define LUA_VERSION	"Lua " LUA_VERSION_MAJOR "." LUA_VERSION_MINOR
-#define LUA_RELEASE	LUA_VERSION "." LUA_VERSION_RELEASE
-#define LUA_COPYRIGHT	LUA_RELEASE "  Copyright (C) 1994-2013 Lua.org, PUC-Rio"
-#define LUA_AUTHORS	"R. Ierusalimschy, L. H. de Figueiredo, W. Celes"
+immutable LUA_VERSION	= "Lua "~ LUA_VERSION_MAJOR ~"."~ LUA_VERSION_MINOR;
+immutable LUA_RELEASE	= LUA_VERSION ~"."~ LUA_VERSION_RELEASE;
+immutable LUA_COPYRIGHT	= LUA_RELEASE ~"  Copyright (C) 1994-2013 Lua.org, PUC-Rio";
+immutable LUA_AUTHORS	= "R. Ierusalimschy, L. H. de Figueiredo, W. Celes";
 
 
 /* mark for precompiled code ('<esc>Lua') */
-#define LUA_SIGNATURE	"\033Lua"
+immutable LUA_SIGNATURE	= "\033Lua";
 
 /* option for multiple returns in 'lua_pcall' and 'lua_call' */
-#define LUA_MULTRET	(-1)
+immutable LUA_MULTRET	=-1;
 
 
 /*
@@ -42,14 +40,15 @@
 
 
 /* thread status */
-#define LUA_OK		0
-#define LUA_YIELD	1
-#define LUA_ERRRUN	2
-#define LUA_ERRSYNTAX	3
-#define LUA_ERRMEM	4
-#define LUA_ERRGCMM	5
-#define LUA_ERRERR	6
-
+enum Lua {
+    OK          = 0,
+    YIELD       = 1.
+    ERRRUN	    = 2,
+    ERRSYNTAX	= 3,
+    ERRMEM	    = 4,
+    ERRGCMM	    = 5,
+    ERRERR	    = 6
+}
 
 typedef struct lua_State lua_State;
 

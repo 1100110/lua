@@ -1,0 +1,20 @@
+{
+	"name":             "lua",
+	"description":      "A simple wrapper around the C lua headers",
+	"homepage":         "http://dlib.us",
+	"copyright":        "Copyright © 2000, Jude Young",
+	"authors": [
+		                "Jude Young"
+	],
+	"dependencies": {
+	},
+    "sourcePaths":      ["deimos"],
+    "buildRequirements":[
+                        "allowWarnings",
+                        "relaxProperties"
+    ],
+    "libs-posix": [
+                        "dl"
+    ],
+    "targetType":       "staticLibrary"
+}

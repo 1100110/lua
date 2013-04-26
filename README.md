@@ -24,6 +24,8 @@ There are a few minor changes from the official C headers. These were only done 
 Most notably:
 
 * ``` import deimos.lua; ``` is enough to pull in all of the headers.  You can still selectively import the other headers if you'd like.
+* error codes like: ``` LUA_OK `` are now ``` LUA.OK ``` since that simplifies enums in D.
+* This exists mainly for conversion of C(++) to D, therefore [LuaD](http://github.com/JakobOvrum/LuaD) should be preferred, as it does not have to limit itself to C style.
 
 ##Links
 
